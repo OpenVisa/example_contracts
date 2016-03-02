@@ -1,0 +1,41 @@
+
+********************************************
+***     OpenVisas ~ Curating US visas    ***
+********************************************
+
+
+Problem: The problem we set out to solve is two fold: 1) Visa's are only officially checked upon entry but not upon exiting making it difficult to track foreigners that are . 2) Renewal and maintenance of visa is cumbersome and difficult for visa holders to adjust 
+
+
+//-----------------------------------------------------------------------------------------------------//
+
+Solution: OpenVisas is a web platform that streamlines the process of managing government visas and tracking visa holders. Our goal is to provide an automated and secure way of distributing visas and tracking activity by using smart contracts and blockchain technology.
+
+
+
+//-----------------------------------------------------------------------------------------------------//
+
+Preliminary Flow:
+
+Alice = (US visa holder as a non US citizen)
+
+1) when Alice applies for visa in her home country, a smart contract is created with defined properties (creation date, start date, expiration date, plus pertinent info)
+
+2) When Alice enters the US, her visa is confirmed by a "tagging on" mechanism or as it is done currently (what does this process look like?, how long does it take?, etc ), biometrics are collected( what specifically is collected? )
+
+3) Alice should be able to go online and manage her visa (renew for a fee). This requires an online web portal 
+
+4) if Alice overstays her visa expiration date, she will automatically be charged a overstay charge via the smart contract (similar to a library fine). In addition, depending on the length of overstay, she may be placed on a warning list. 
+
+5) when she leaves the US, there will be a "tagging off" mechanism that will update the smart contract that she has left. (visa holders have an incentive to indicate when they are leaving or else they will rack up overstay charges)
+
+6) As a further penalty, overstay fees may cause delay in gaining a US visa in the future. 
+
+
+** "Tagging on and off" - We envision the visa as a card (which we will call ova cards) or associated with a card (similar to a clipper card) or associated with passport. In customs area, visa holders will "tag on" either with "ova card" or passport. This will inform the contract that they are inside the US. Once they are exiting the US before they enter the flight, they will "tag off" with the same card. 
+
+
+//-----------------------------------------------------------------------------------------------------//
+
+
+
